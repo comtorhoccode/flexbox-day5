@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 78%;
+    margin: 30px auto;
+    display: flex;
+}
+.header-left{
+    height: 25px;
+    width: 25px;
+    background-color: dimgrey;
+    border-radius: 50%;
+}
+.header-hide{
+    height: 25px;
+    width: 80%;
+    visibility: hidden;
+}
+.header-right{
+    height: 25px;
+    width: 10%;
+    background-color: dimgrey;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.body{
+    width: 80%;
+    margin: 20px auto;
+}
+.menu1 {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+.child1{
+    width: 49%;
+    background-color: #bbb;
+    margin: 10px;
+    border-radius: 15px;
+}
+.child2{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child2 div{
+    height: 183px;
+    width: 47%;
+    margin: 10px;
+    background-color: #bbb;
+    border-radius: 15px;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.menu2 div{
+    width: 25%;
+    background-color: #bbb;
+    margin: 10px;
+    border-radius: 15px;
+}
+.menu3{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.menu3 div{
+    width: 25%;
+    background-color: #bbb;
+    margin: 10px;
+    border-radius: 15px;
+}
+.menu4{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.menu4 div {
+    width: 25%;
+    background-color: #bbb;
+    margin: 10px;
+    border-radius: 15px;
+}
