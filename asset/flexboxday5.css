@@ -7,6 +7,14 @@
     margin: 30px auto;
     display: flex;
 }
+.header-content-left,.header-content-right {
+    width: 50%;
+}
+
+.header-content-right {
+    display: flex;
+    justify-content: right;
+}
 .header-left{
     height: 25px;
     width: 25px;
@@ -45,12 +53,22 @@
 .child2{
     width: 50%;
     border-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
+
 }
-.child2 div{
+.child2-content-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: red;
+}
+
+.child2-content-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: yellow;
+}
+.child2-content-1 div,.child2-content-2 div{
     height: 183px;
-    width: 47%;
+    width: 48%;
     margin: 10px;
     background-color: #bbb;
     border-radius: 15px;
